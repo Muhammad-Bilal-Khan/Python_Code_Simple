@@ -1,0 +1,6 @@
+adjective=input("Enter an adjective for object: ")
+noun=input("Enter the noun for the object: ")
+verb=input("Enter the verb for the object: ") 
+animal=input("Enter the animal name: ")
+colour=input("Enter the colour of the animal: ")
+print("The",adjective,noun,verb,"over the lazy",colour,animal)
