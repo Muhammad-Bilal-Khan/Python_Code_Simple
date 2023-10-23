@@ -1,0 +1,15 @@
+def distribution(f):
+    file=open(f,'r')
+    grades=file.read()
+    print(grades.count("A"),"Students got A")
+    print(grades.count("A-"),"Students got A-")
+    print(grades.count("B+"),"Students got B+")
+    print(grades.count("B"),"Students got B")
+    print(grades.count("B-"),"Students got B-")
+    print(grades.count("C"),"Students got C")
+    print(grades.count("C-"),"Students got c-")
+    print(grades.count("F"),"Students got F")
+    file.close()
+#Source Code
+file=input("Enter file name: ")
+print(distribution(file))
