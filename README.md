@@ -2,4 +2,4 @@
 # Requirement
 Python3
 Python Iterpreter:
-Ideally Jupyter
+Ideally Jupyter Notebook in Anaconda
